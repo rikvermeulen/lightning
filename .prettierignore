@@ -1,0 +1,29 @@
+# Editor specific
+.idea
+.vscode
+
+# General files
+*~
+*.DS_STORE
+
+# Public
+public
+
+# NPM
+node_modules
+npm-debug.log
+
+# Next.JS
+.next/
+
+# App Logs
+*.log
+
+# App Config
+app/config/config.json
+
+# App Build
+build/*
+
+# Next config
+next.config.js
