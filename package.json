@@ -2,11 +2,24 @@
   "name": "lightning",
   "version": "0.1.0",
   "private": true,
+  "description": "Project:",
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest --watch"
+  },
+  "author": "Rik Vermeulen",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 100,
+    "tabWidth": 2
   },
   "dependencies": {
     "@next/font": "13.0.7",
@@ -21,7 +34,11 @@
     "typescript": "4.9.4"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
     "autoprefixer": "^10.4.13",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
     "postcss": "^8.4.20",
     "tailwindcss": "^3.2.4"
   }
