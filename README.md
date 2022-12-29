@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Requirements
 
-## Getting Started
+- Node.js 18+ and npm
 
-First, run the development server:
+### Getting started
 
-```bash
-npm run dev
-# or
-yarn dev
+Run the following command on your local environment:
+
+```shell
+git clone --depth=1 https://github.com/rikvermeulen/lightning.git project-name
+cd project-name
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, you can run locally in development mode:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Open http://localhost:3000 with your favorite browser to see your project.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```shell
+.
+├── README.md                       # README file
+├── __mocks__                       # Mocks for testing
+├── .github                         # GitHub folder
+├── .husky                          # Husky configuration
+├── .vscode                         # VSCode configuration
+├── public                          # Public assets folder
+│   ├── styles                      # Styles folder
+├── app
+│   ├── layouts                     # Layouts components
+│   ├── pages                       # Next JS Pages
+│   ├── templates                   # Default template
+│   └── utils                       # Utility functions
+├── tailwind.config.js              # Tailwind CSS configuration
+└── tsconfig.json                   # TypeScript configuration
+```
 
-## Learn More
+### Customization
 
-To learn more about Next.js, take a look at the following resources:
+...
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### VSCode information (optional)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For VSCode users, you can have a better integration with VSCode by installing the suggested extension in `.vscode/extension.json`. The starter code comes up with Settings for a seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
 
-## Deploy on Vercel
+With the plugins installed on your VSCode, ESLint and Prettier can automatically fix the code and show you the errors. Same goes for testing, you can install VSCode Jest extension to automatically run your tests and it also show the code coverage in context.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Licensed under the MIT License, Copyright © 2022
+
+See [LICENSE](LICENSE) for more information.
+
+## Deploy
+
+docker compose up
