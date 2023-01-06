@@ -1,5 +1,5 @@
 # Lightning
-## boilerplate and starter based on NextJS 13+
+### boilerplate and starter based on NextJS 13+
 
 An open source boilerplate built using the new router, server components and everything new in NextJS 13+.
 
@@ -7,7 +7,7 @@ An open source boilerplate built using the new router, server components and eve
 > This app is a work in progress. I'm building this in public.
 > See the roadmap below.
 
-### Features
+## Features
 
 - ⚡ [Next.js](https://nextjs.org) 13+
 - 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
@@ -31,7 +31,7 @@ An open source boilerplate built using the new router, server components and eve
 
 - Node.js 18+ and npm
 
-### Getting started
+## Getting started
 
 Run the following command on your local environment:
 
@@ -67,7 +67,11 @@ Open http://localhost:3000 with your favorite browser to see your project.
 └── tsconfig.json                   # TypeScript configuration
 ```
 
-### Customization
+## Deploy
+
+...
+
+## Customization
 
 ...
 
@@ -77,12 +81,9 @@ For VSCode users, you can have a better integration with VSCode by installing th
 
 With the plugins installed on your VSCode, ESLint and Prettier can automatically fix the code and show you the errors. Same goes for testing, you can install VSCode Jest extension to automatically run your tests and it also show the code coverage in context.
 
-### License
+## License
 
 Licensed under the MIT License, Copyright © 2022
 
 See [LICENSE](LICENSE) for more information.
 
-## Deploy
-
-...
