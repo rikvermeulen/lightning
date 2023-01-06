@@ -27,7 +27,7 @@ An open source boilerplate built using the new router, server components and eve
 - [ ] Add tests
 - [ ] Add PWA
 
-### Requirements
+## Requirements
 
 - Node.js 18+ and npm
 
