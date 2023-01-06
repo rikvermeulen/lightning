@@ -25,5 +25,5 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          push: true
+          load: true
           tags: rikvermeulen/${{ github.event.repository.name }}:${{ steps.get_version.outputs.VERSION }}.${{ github.run_id }}
