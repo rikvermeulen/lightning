@@ -4,7 +4,8 @@
   "private": true,
   "description": "Project:",
   "scripts": {
-    "dev": "next dev --turbo && NODE_ENV=development",
+    "dev": "next dev && NODE_ENV=development",
+    "dev-turbo": "next dev --turbo && NODE_ENV=development",
     "build": "next build && NODE_ENV=production",
     "start": "next start",
     "lint": "next lint",
@@ -33,14 +34,14 @@
   },
   "dependencies": {
     "@next/font": "13.1.1",
-    "@types/node": "18.11.18",
-    "@types/react": "18.0.26",
-    "@types/react-dom": "18.0.10",
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@typescript-eslint/eslint-plugin": "^5.48.0",
