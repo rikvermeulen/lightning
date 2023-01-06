@@ -1,6 +1,6 @@
 # Define OS
 #
-FROM alpine:3.15 AS build
+FROM alpine:3.15 AS deps
 
 # Install packages
 RUN apk add --no-cache nodejs npm
@@ -14,25 +14,44 @@ COPY ./package.json ./package-lock.json ./
 # Install dependencies
 RUN npm ci && npm cache clean --force
 
-# Bundle application source
+
+# Rebuild the source code only when needed
+
+FROM alpine:3.15 AS build
+
+# Install packages
+RUN apk add --no-cache nodejs npm
+
+WORKDIR /app
+
+COPY --from=deps /app/node_modules ./node_modules
+
 COPY . .
 
-# Create a production build
 RUN npm run build
 
-#
-# Setup app
-#
+# Production image, copy all the files and run next
+FROM alpine:3.15 AS runner
+
+RUN apk add --no-cache nodejs npm
+
+WORKDIR /app
 
 # Set node env
 ENV NODE_ENV=production
 ENV CONFIG_DIR=/
 
-# Expose the app port
+
+COPY --from=build /app/public ./public
+COPY --from=build /app/package.json ./package.json
+
+# Automatically leverage output traces to reduce image size
+# https://nextjs.org/docs/advanced-features/output-file-tracing
+COPY --from=build /app/.next/standalone ./
+COPY --from=build /app/.next/static ./.next/static
+
 EXPOSE 3000
 
-# Setup healthcheck
-HEALTHCHECK --interval=10s --timeout=3s \
-  CMD wget --no-verbose --tries=1 --spider http://localhost:3000/_health || exit 1
+ENV PORT 3000
 
-CMD [ "npm", "start" ]
+CMD ["node", "server.js"]
