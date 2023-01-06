@@ -1,11 +1,11 @@
 {
   "name": "lightning",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "description": "Project:",
   "scripts": {
-    "dev": "next dev --turbo",
-    "build": "next build",
+    "dev": "next dev --turbo && NODE_ENV=development",
+    "build": "next build && NODE_ENV=production",
     "start": "next start",
     "lint": "next lint",
     "test": "jest --passWithNoTests",
@@ -16,9 +16,14 @@
     "check-updates": "ncu -u && npm i"
   },
   "author": "Rik Vermeulen",
+  "contributors": [],
   "license": "ISC",
   "engines": {
     "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rikvermeulen/lightnings"
   },
   "prettier": {
     "trailingComma": "es5",
