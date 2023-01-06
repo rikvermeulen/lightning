@@ -1,3 +1,32 @@
+# Lightning
+## boilerplate and starter based on NextJS 13+
+
+An open source boilerplate built using the new router, server components and everything new in NextJS 13+.
+
+> **Warning**
+> This app is a work in progress. I'm building this in public.
+> See the roadmap below.
+
+### Features
+
+- ⚡ [Next.js](https://nextjs.org) 13+
+- 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
+- 💎 Integrate with [Tailwind CSS](https://tailwindcss.com)
+- ✅ Strict Mode for TypeScript and React 18
+- 📏 Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
+- 💖 Code Formatter with [Prettier](https://prettier.io)
+- 🦊 Husky for Git Hooks
+- 🚫 Lint-staged for running linters on Git staged files
+- 🦺 Unit Testing with Jest and React Testing Library
+- 👷 Run tests on pull request with GitHub Actions
+- 💡 Absolute Imports using `@` prefix
+- 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript, Jest
+
+## Roadmap
+
+- [ ] Add tests
+- [ ] Add PWA
+
 ### Requirements
 
 - Node.js 18+ and npm
@@ -23,7 +52,7 @@ Open http://localhost:3000 with your favorite browser to see your project.
 ```shell
 .
 ├── README.md                       # README file
-├── __mocks__                       # Mocks for testing
+├── __tests__                       # Mocks for testing
 ├── .github                         # GitHub folder
 ├── .husky                          # Husky configuration
 ├── .vscode                         # VSCode configuration
@@ -56,4 +85,4 @@ See [LICENSE](LICENSE) for more information.
 
 ## Deploy
 
-docker compose up
+...
