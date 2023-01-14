@@ -26,6 +26,10 @@ An open source boilerplate built using the new router, server components and eve
 
 - [ ] Add tests
 - [ ] Add PWA
+- [ ] Add AMP
+- [ ] Add [optional] custom server
+- [ ] Add logger module
+- [ ] Add redirect module
 
 ## Requirements
 
