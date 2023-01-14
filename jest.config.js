@@ -5,8 +5,8 @@ const createJestConfig = nextJest({ dir: '.' });
 const customJestConfig = {
   testEnvironment: 'jsdom',
   clearMocks: true,
-  moduleDirectories: ['node_modules', 'app'],
-  setupFilesAfterEnv: ['<rootDir>/app/setupTests.ts'],
+  moduleDirectories: ['node_modules', 'src'],
+  setupFilesAfterEnv: ['<rootDir>/src/app/setupTests.ts'],
   testRegex: '(/__tests__/.*|(\\.|/)test)\\.[jt]sx?$',
 };
 
