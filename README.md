@@ -56,9 +56,10 @@ Open http://localhost:3000 with your favorite browser to see your project.
 │   ├── workflow                    # GitHub actions folder
 ├── .husky                          # Husky configuration
 ├── .vscode                         # VSCode configuration
-├── app
-│   ├── components                  # Default components
-│   └── utils                       # Utility functions
+├── src                             
+│   ├── app                         # App base
+│   │   ├── components              # Default components
+│   │   └── utils                   # Utility functions
 ├── public                          # Public assets folder
 │   ├── images                      # Image/Icon/Favicon folder
 │   ├── styles                      # Styles folder
