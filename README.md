@@ -51,19 +51,21 @@ Open http://localhost:3000 with your favorite browser to see your project.
 
 ```shell
 .
-├── README.md                       # README file
 ├── __tests__                       # Mocks for testing
 ├── .github                         # GitHub folder
+│   ├── workflow                    # GitHub actions folder
 ├── .husky                          # Husky configuration
 ├── .vscode                         # VSCode configuration
-├── public                          # Public assets folder
-│   ├── styles                      # Styles folder
 ├── app
-│   ├── layouts                     # Layouts components
-│   ├── pages                       # Next JS Pages
-│   ├── templates                   # Default template
+│   ├── components                  # Default components
 │   └── utils                       # Utility functions
+├── public                          # Public assets folder
+│   ├── images                      # Image/Icon/Favicon folder
+│   ├── styles                      # Styles folder
+├── pages                           # Next JS Pages
+│   ├── api                         # Next JS api 
 ├── tailwind.config.js              # Tailwind CSS configuration
+├── README.md                       # README file
 └── tsconfig.json                   # TypeScript configuration
 ```
 
