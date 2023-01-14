@@ -17,17 +17,17 @@ export default function Head() {
       <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png" />
 
       {/* @Microsoft support */}
-      <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+      <meta name="msapplication-config" content="images/favicons/browserconfig.xml" />
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="msapplication-tap-highlight" content="no" />
-      <meta name="msapplication-TileImage" content="images/icons/mstile-144x144.png" />
+      <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png" />
 
       {/*  @Apple support */}
       <meta name="apple-mobile-web-app-title" content="Lightning" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar" content="#000000" />
       <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#000000"></link>
-      <link rel="apple-touch-icon" href="images/icons/apple-512x512.png" />
+      <link rel="apple-touch-icon" href="images/favicons/apple-512x512.png" />
 
       {/* @Twitter support */}
       <meta name="twitter:card" content="summary" />
