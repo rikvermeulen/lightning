@@ -25,7 +25,7 @@ An open source boilerplate built using the new router, server components and eve
 ## Roadmap
 
 - [ ] Add tests
-- [ ] Add PWA
+- [x] Add PWA
 - [ ] Add AMP
 - [ ] Add [optional] custom server
 - [ ] Add logger module
