@@ -2,9 +2,9 @@
   "short_name": "lightning",
   "name": "lightning",
   "description": "description",
-  " icons": [
+  "icons": [
     {
-      "src": "./images/favicons/icons-192x192.png",
+      "src": "/images/favicons/icons-192x192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
@@ -12,7 +12,8 @@
     {
       "src": "/images/favicons/icons-512x512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "background_color": "#000000",
