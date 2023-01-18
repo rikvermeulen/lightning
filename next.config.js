@@ -10,7 +10,7 @@ const withPWA = require("@ducanh2912/next-pwa").default({
 });
 
 const { parsed: localEnv } = dotenv.config({
-  allowEmptyValues: false,
+  allowEmptyValues: true,
   path: path.resolve(__dirname, `src/config/.env.${process.env.NODE_ENV}`),
 });
 
