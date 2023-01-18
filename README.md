@@ -33,7 +33,7 @@ An open source boilerplate built using the new router, server components and eve
 
 ## Requirements
 
-- Node.js 18+ and npm
+- Node.js 16+ and npm
 
 ## Getting started
 
