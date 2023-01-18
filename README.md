@@ -25,7 +25,7 @@ An open source boilerplate built using the new router, server components and eve
 ## Roadmap
 
 - [ ] Add tests
-- [ ] Add PWA
+- [x] Add PWA
 - [ ] Add AMP
 - [ ] Add [optional] custom server
 - [ ] Add logger module
@@ -33,7 +33,7 @@ An open source boilerplate built using the new router, server components and eve
 
 ## Requirements
 
-- Node.js 18+ and npm
+- Node.js 16+ and npm
 
 ## Getting started
 
@@ -73,10 +73,20 @@ Open http://localhost:3000 with your favorite browser to see your project.
 ├── README.md                       # README file
 └── tsconfig.json                   # TypeScript configuration
 ```
+## Testing
+
+All tests are colocated with the source code inside the same directory. So, it makes it easier to find them. Unfortunately, it is not possible with the `pages` folder which is used by Next.js for routing. So, what is why we have a `pages.test` folder to write tests from files located in `pages` folder.
 
 ## Deploy
 
-...
+### Deploy to Vercel
+
+Deploy Lightning on Vercel in one click:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Frikvermeulen%2Flightning)
+### Docker
+
+Build lightning with Docker
 
 ## Customization
 

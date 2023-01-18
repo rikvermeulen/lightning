@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex flex-col">
       <div className="mb-24 flex flex-col items-center justify-center">
-        <h1 className="mt-24 bg-transparent text-6xl font-semibold">
+        <h1 className="mt-24 bg-transparent text-2xl font-semibold md:text-6xl">
           Welcome to <span className="font-bold text-cyan-400">Lightning!</span>
         </h1>
         <h2 className="mt-4 text-xs font-semibold uppercase tracking-wider text-gray-400">
@@ -17,7 +17,7 @@ export default function Home() {
           </a>
         </p>
       </div>
-      <div className="flex items-center justify-center gap-8">
+      <div className="flex flex-col items-center justify-center gap-8 px-5 md:flex-row">
         <Link
           className="max-w-xs rounded-md border border-gray-800 bg-gray-800 p-6 px-5 py-3 transition-colors hover:bg-gray-700"
           href="https://beta.nextjs.org/docs"
