@@ -86,14 +86,16 @@ module.exports = (
         description,
         icons: [
           {
-            src: '/images/icons-192.png',
+            src: '/images/favicons/icons-192x192.png',
             type: 'image/png',
             sizes: '192x192',
+            purpose: 'any maskable',
           },
           {
-            src: '/images/icons-512.png',
+            src: '/images/favicons/icons-512x512.png',
             type: 'image/png',
             sizes: '512x512',
+            purpose: 'any maskable',
           },
         ],
         start_url: '/?source=pwa',
@@ -101,6 +103,7 @@ module.exports = (
         display: 'standalone',
         scope: '/',
         theme_color: themeColor,
+        orientation: 'portrait',
       };
       res.json(manifest);
       return;
