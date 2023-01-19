@@ -1,36 +1,40 @@
-import type { NextFetchEvent, NextRequest } from 'next/server';
-import { NextResponse } from 'next/server';
+/**
+ * Import vendor modules
+ */
+const expressBrowserSupport = require('express-browsersupport');
 
-export const oldBrowser = (
-  supportedBrowsers = ['Chrome >= 120', 'Firefox >= 13', 'Safari >= 10', 'IE >= 99', 'Edge == All'],
-  debug = true
+module.exports = (
+  supportedBrowsers = ['Chrome >= 41', 'Firefox >= 13', 'Safari >= 10', 'IE >= 99', 'Edge == All'],
+  debug = false
 ) => {
-  return async (request: NextRequest, res: any, _next: NextFetchEvent) => {
-    console.info(`[OLD BROWSER] Enabled! Supported Browser Rules: ${supportedBrowsers.join(', ')}`);
+  console.info(`[OLD BROWSER] Enabled! Supported Browser Rules: ${supportedBrowsers.join(', ')}`);
 
-    /**
-     * Check if supported browsers are correct
-     */
-    if (typeof supportedBrowsers === 'undefined' || !Array.isArray(supportedBrowsers)) {
-      console.error("[OLD BROWSER] Option 'supported_browsers' must be an Array");
-      return NextResponse.next();
-    }
+  /**
+   * Check if supported browsers are correct
+   */
+  if (typeof supportedBrowsers === 'undefined' || !Array.isArray(supportedBrowsers)) {
+    console.error("[OLD BROWSER] Option 'supported_browsers' must be an Array");
+    process.exit(1);
+    return;
+  }
 
-    /**
-     * Check if debug is set correctly
-     */
-    if (typeof debug === 'undefined' || typeof debug !== 'boolean') {
-      console.error("[OLD BROWSER] Option 'debug' must be a Boolean");
-      return NextResponse.next();
-    }
+  /**
+   * Check if debug is set correctly
+   */
+  if (typeof debug === 'undefined' || typeof debug !== 'boolean') {
+    console.error("[OLD BROWSER] Option 'debug' must be a Boolean");
+    process.exit(1);
+    return;
+  }
 
-    // const { browser } = userAgent(request);
-
-    // if (browser.major <= 120) {
-    //   console.info(`[OLD BROWSER] Redirecting to /about`);
-    //   return res.redirect(new URL('/about', request.url));
-    // }
-
-    return res.next();
-  };
+  /**
+   * Return the express middleware
+   */
+  // eslint-disable-next-line consistent-return
+  return expressBrowserSupport({
+    debug,
+    supportedBrowsers,
+  });
 };
+
+export {};

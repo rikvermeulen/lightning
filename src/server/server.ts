@@ -1,28 +1,31 @@
-import { createServer } from 'http';
+// experiment server.ts
 import next from 'next';
-import { parse } from 'url';
 
-const dev = process.env.NODE_ENV !== 'production';
-const port = 3000;
-const hostname = 'localhost';
-const app = next({ dev, hostname, port });
-const handle = app.getRequestHandler();
+const pwa = require('../middleware/pwa');
+const oldBrowser = require('../middleware/oldBrowser');
 
-app.prepare().then(() => {
-  createServer(async (req, res) => {
-    try {
-      const parsedUrl = parse(req.url || '', true);
-      await handle(req, res, parsedUrl);
-    } catch (err) {
-      console.error('Error occurred handling', req.url, err);
-      res.statusCode = 500;
-      res.end('internal server error');
-    }
-  }).listen(port);
+const Runtime = require('./test/runtime');
+const Server = require('./test/server');
 
-  console.log(
-    `> Server listening at http://localhost:${port} as ${
-      dev ? 'development' : process.env.NODE_ENV
-    }`
-  );
+const server = new Server();
+
+/**
+ * Define global middlewares
+ */
+const globalMiddleware = [
+  oldBrowser(),
+  pwa(
+    'Config.pwa.name',
+    'Config.pwa.shortName',
+    'Config.pwa.description',
+    'Config.pwa.themeColor',
+    'Config.pwa.backgroundColor',
+    '0.0.0'
+  ),
+];
+
+Runtime(() => {
+  server.loadMiddlewares(globalMiddleware);
+  server.loadNext(next);
+  server.run();
 });
