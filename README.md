@@ -1,11 +1,36 @@
-# Lightning
-### boilerplate and starter based on NextJS 13+
+<h1 align="center">Lightning</h1>
 
-An open source boilerplate built using the new router, server components and everything new in NextJS 13+.
+<p align="center">
+  boilerplate and building blocks for your Next project
+</p>
+
+<p align="center">
+  <a href="https://twitter.com/rikvermeulen_">
+    <img src="https://img.shields.io/twitter/follow/rikvermeulen_?style=flat&label=rikvermeulen_&logo=twitter&color=0bf&logoColor=fff" alt="Rik Vermeulen Twitter follower count" />
+  </a>
+  <a href="https://github.com/rikvermeulen/lightning">
+    <img src="https://img.shields.io/github/stars/rikvermeulen/lightning?label=rikvermeulen%2Flightning" alt="Lightning repo star count" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="#introduction"><strong>Introduction</strong></a> ·
+  <a href="#deploy"><strong>One-click Deploy</strong></a> ·
+  <a href="#features"><strong>Tech Stack + Features</strong></a> ·
+  <a href="#author"><strong>Author</strong></a>
+</p>
+
+## Introduction
+
+Lightning is an opinionated collection of packages, utilities and a set of rules for your Next.js 13+ project.
 
 > **Warning**
 > This app is a work in progress. I'm building this in public.
 > See the roadmap below.
+
+## Requirements
+
+- Node.js 16+ and npm
 
 ## Features
 
@@ -21,19 +46,6 @@ An open source boilerplate built using the new router, server components and eve
 - 👷 Run tests on pull request with GitHub Actions
 - 💡 Absolute Imports using `@` prefix
 - 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript, Jest
-
-## Roadmap
-
-- [ ] Add tests
-- [x] Add PWA
-- [ ] Add AMP
-- [ ] Add [optional] custom server
-- [ ] Add logger module
-- [ ] Add redirect module
-
-## Requirements
-
-- Node.js 16+ and npm
 
 ## Getting started
 
@@ -88,9 +100,13 @@ Deploy Lightning on Vercel in one click:
 
 Build lightning with Docker
 
-## Customization
+## Roadmap
 
-...
+- [ ] Add tests
+- [x] Add PWA
+- [ ] Add [optional] custom server
+- [ ] Add logger module
+- [ ] Add redirect module
 
 ### VSCode information (optional)
 
@@ -103,4 +119,8 @@ With the plugins installed on your VSCode, ESLint and Prettier can automatically
 Licensed under the MIT License, Copyright © 2022
 
 See [LICENSE](LICENSE) for more information.
+
+## Author
+
+- Rik Vermeulen ([@rikvermeulen_](https://twitter.com/rikvermeulen_))
 
