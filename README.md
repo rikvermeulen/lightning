@@ -42,7 +42,7 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 - 💖 Code Formatter with [Prettier](https://prettier.io)
 - 🦊 Husky for Git Hooks
 - 🚫 Lint-staged for running linters on Git staged files
-- 🦺 Unit Testing with Jest and React Testing Library
+- 🦺 Unit Testing with Vitest and React Testing Library
 - 👷 Run tests on pull request with GitHub Actions
 - 💡 Absolute Imports using `@` prefix
 - 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript, Jest
