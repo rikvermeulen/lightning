@@ -24,10 +24,6 @@
 
 Lightning is an opinionated collection of packages, utilities and a set of rules for your Next.js 13+ project.
 
-> **Warning**
-> This app is a work in progress. I'm building this in public.
-> See the roadmap below.
-
 ## Requirements
 
 - Node.js 16+ and npm
