@@ -75,13 +75,13 @@ Open http://localhost:3000 with your favorite browser to see your project.
 ├── src                             
 │   ├── app                         # App base
 │   │   ├── components              # Default components
-│   │   └── utils                   # Utility functions
+│   ├── pages                           # Next JS Pages
+│   │   ├── api                         # Next JS api 
 ├── public                          # Public assets folder
 │   ├── images                      # Image/Icon/Favicon folder
 │   ├── styles                      # Styles folder
-├── pages                           # Next JS Pages
-│   ├── api                         # Next JS api 
 ├── tailwind.config.js              # Tailwind CSS configuration
+├── next.config.js                  # Next configuration
 ├── README.md                       # README file
 └── tsconfig.json                   # TypeScript configuration
 ```
@@ -102,8 +102,8 @@ Build lightning with Docker
 
 ## Roadmap
 
-- [ ] Add tests
 - [x] Add PWA
+- [ ] Add tests
 - [ ] Add [optional] custom server
 - [ ] Add logger module
 - [ ] Add redirect module
