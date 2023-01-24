@@ -9,13 +9,13 @@ export default function Home() {
           <h1 className="bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center text-4xl font-bold tracking-[-0.02em] text-transparent drop-shadow-sm md:text-7xl md:leading-[5rem]">
             Boilerplate for your Next project
           </h1>
-          <p className="mt-6 text-center text-gray-500 md:text-xl">
+          <h2 className="mt-6 text-center text-gray-500 md:text-xl">
             Lightning is an opinionated collection of packages, utilities and a set of rules for
             your Next.js 13+ project.
-          </p>
+          </h2>
           <p className="mt-6 text-center text-sm text-gray-500">
             Get started by editing
-            <a href="vscode://lightning" className="ml-2 rounded-md bg-gray-200 p-2">
+            <a href="vscode://lightning" className="ml-2 rounded-md bg-gray-200 p-2 text-black">
               src/app/page.tsx
             </a>
           </p>
