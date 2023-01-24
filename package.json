@@ -9,7 +9,7 @@
     "build": "next build && NODE_ENV=production",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --passWithNoTests",
+    "test": "vitest --passWithNoTests",
     "build-prod": "run-s clean build export",
     "postbuild": "next-sitemap",
     "prepare": "husky install",
@@ -35,16 +35,17 @@
   },
   "dependencies": {
     "@next/font": "13.1.5",
+    "dotenv-safe": "^8.2.0",
     "next": "13.1.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "^3.2.4",
-    "dotenv-safe": "^8.2.0"
+    "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
     "@commitlint/cz-commitlint": "^17.4.2",
+    "@ducanh2912/next-pwa": "^7.3.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/node": "18.11.18",
@@ -52,6 +53,7 @@
     "@types/react-dom": "18.0.10",
     "@typescript-eslint/eslint-plugin": "^5.49.0",
     "@typescript-eslint/parser": "^5.49.0",
+    "@vitejs/plugin-react": "^3.0.1",
     "autoprefixer": "^10.4.13",
     "eslint": "8.32.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -72,12 +74,10 @@
     "eslint-plugin-testing-library": "^5.10.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "husky": "^8.0.3",
-    "jest": "^29.4.0",
-    "jest-environment-jsdom": "^29.4.0",
     "next-sitemap": "^3.1.47",
-    "@ducanh2912/next-pwa": "^7.3.2",
     "postcss": "^8.4.21",
     "prettier": "^2.8.3",
-    "typescript": "4.9.4"
+    "typescript": "4.9.4",
+    "vitest": "^0.28.1"
   }
 }
