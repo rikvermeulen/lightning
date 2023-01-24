@@ -7,10 +7,11 @@ export default function Home() {
       <section className="relative py-24">
         <div className="mx-auto max-w-xl flex-col px-5 xl:px-0">
           <h1 className="bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center text-4xl font-bold tracking-[-0.02em] text-transparent drop-shadow-sm md:text-7xl md:leading-[5rem]">
-            Building blocks for your Next project
+            Boilerplate for your Next project
           </h1>
           <p className="mt-6 text-center text-gray-500 md:text-xl">
-            An opinionated collection of components, hooks, and utilities for your Next.js project.
+            Lightning is an opinionated collection of packages, utilities and a set of rules for
+            your Next.js 13+ project.
           </p>
           <p className="mt-6 text-center text-sm text-gray-500">
             Get started by editing

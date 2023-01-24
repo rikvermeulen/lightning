@@ -1,7 +1,7 @@
 <h1 align="center">Lightning</h1>
 
 <p align="center">
-  boilerplate and building blocks for your Next project
+  Boilerplate and building blocks for your Next project
 </p>
 
 <p align="center">
