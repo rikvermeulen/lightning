@@ -15,7 +15,10 @@ export default function Home() {
           </h2>
           <p className="mt-6 text-center text-sm text-gray-500">
             Get started by editing
-            <a href="vscode://lightning" className="ml-2 rounded-md bg-gray-200 p-2 text-black">
+            <a
+              href="vscode://lightning"
+              className="ml-2 rounded-md bg-gray-200 p-2 text-black opacity-60"
+            >
               src/app/page.tsx
             </a>
           </p>
