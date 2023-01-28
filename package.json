@@ -34,18 +34,19 @@
     "tabWidth": 2
   },
   "dependencies": {
-    "@next/font": "13.1.5",
+    "@next/font": "13.1.6",
     "dotenv-safe": "^8.2.0",
-    "next": "13.1.5",
+    "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sharp": "^0.31.3",
     "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
     "@commitlint/cz-commitlint": "^17.4.2",
-    "@ducanh2912/next-pwa": "^7.3.2",
+    "@ducanh2912/next-pwa": "^7.3.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/node": "18.11.18",
@@ -58,7 +59,7 @@
     "eslint": "8.32.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-next": "13.1.5",
+    "eslint-config-next": "13.1.6",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-import": "^2.27.5",
@@ -69,7 +70,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-simple-import-sort": "^9.0.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-tailwindcss": "^3.8.2",
     "eslint-plugin-testing-library": "^5.10.0",
     "eslint-plugin-unused-imports": "^2.0.0",
@@ -78,6 +79,6 @@
     "postcss": "^8.4.21",
     "prettier": "^2.8.3",
     "typescript": "4.9.4",
-    "vitest": "^0.28.1"
+    "vitest": "^0.28.3"
   }
 }
