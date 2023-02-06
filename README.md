@@ -26,7 +26,7 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 
 ## Requirements
 
-- Node.js 16+ and npm
+- Node.js 18+ and npm
 
 ## Features
 
