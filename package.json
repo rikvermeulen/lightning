@@ -10,7 +10,6 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest --passWithNoTests",
-    "build-prod": "run-s clean build export",
     "postbuild": "next-sitemap",
     "prepare": "husky install",
     "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
@@ -21,7 +20,7 @@
   "contributors": [],
   "license": "ISC",
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "repository": {
     "type": "git",
@@ -46,17 +45,17 @@
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
     "@commitlint/cz-commitlint": "^17.4.2",
-    "@ducanh2912/next-pwa": "^7.3.3",
+    "@ducanh2912/next-pwa": "^8.0.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
-    "@types/node": "18.11.18",
+    "@types/node": "18.11.19",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
-    "@typescript-eslint/eslint-plugin": "^5.49.0",
-    "@typescript-eslint/parser": "^5.49.0",
-    "@vitejs/plugin-react": "^3.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.13",
-    "eslint": "8.32.0",
+    "eslint": "8.33.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-next": "13.1.6",
@@ -68,17 +67,17 @@
     "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.1",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-tailwindcss": "^3.8.2",
+    "eslint-plugin-tailwindcss": "^3.8.3",
     "eslint-plugin-testing-library": "^5.10.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "husky": "^8.0.3",
-    "next-sitemap": "^3.1.47",
+    "next-sitemap": "^3.1.49",
     "postcss": "^8.4.21",
     "prettier": "^2.8.3",
-    "typescript": "4.9.4",
-    "vitest": "^0.28.3"
+    "typescript": "4.9.5",
+    "vitest": "^0.28.4"
   }
 }
