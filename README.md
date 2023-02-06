@@ -119,4 +119,3 @@ See [LICENSE](LICENSE) for more information.
 ## Author
 
 - Rik Vermeulen ([@rikvermeulen_](https://twitter.com/rikvermeulen_))
-
