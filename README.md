@@ -99,7 +99,7 @@ Build lightning with Docker
 ## Roadmap
 
 - [x] Add PWA
-- [ ] Add tests
+- [x] Add test
 - [ ] Add [optional] custom server
 - [ ] Add logger module
 - [ ] Add redirect module
