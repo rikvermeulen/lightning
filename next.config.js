@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 /** @type {import('next').NextConfig} */
 
 const path = require('path');
@@ -15,7 +16,6 @@ const { parsed: localEnv } = dotenv.config({
 });
 
 module.exports = withPWA({
-  output: 'standalone',
   env: localEnv,
   experimental: {
     appDir: true,
