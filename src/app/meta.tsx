@@ -73,7 +73,7 @@ const openGraph = {
 
 // Template metadata for robot.txt
 const robots = {
-  index: false,
+  index: true,
   follow: true,
   nocache: true,
   googleBot: {
