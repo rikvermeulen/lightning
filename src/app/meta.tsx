@@ -55,13 +55,13 @@ const openGraph = {
   siteName: 'Lightning',
   images: [
     {
-      url: 'images/favicons/favicon-32x32.png',
+      url: 'favicons/favicon-32x32.png',
       width: 800,
       height: 600,
       alt: 'Lightning',
     },
     {
-      url: 'images/favicons/favicon-32x32.png',
+      url: 'favicons/favicon-32x32.png',
       width: 1800,
       height: 1600,
       alt: 'Lightning',
@@ -87,12 +87,12 @@ const robots = {
 
 // Template metadata for all icons
 const icons = {
-  icon: 'images/favicons/favicon-32x32.png',
-  shortcut: 'images/favicons/safari-pinned-tab.svg',
-  apple: 'images/favicons/apple-512x512.png',
+  icon: 'favicons/favicon-32x32.png',
+  shortcut: 'favicons/safari-pinned-tab.svg',
+  apple: 'favicons/apple-512x512.png',
   other: {
     rel: 'apple-touch-icon-precomposed',
-    url: 'images/favicons/apple-512x512.png',
+    url: 'favicons/apple-512x512.png',
   },
 };
 
