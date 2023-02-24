@@ -22,7 +22,7 @@
 
 ## Introduction
 
-Lightning is an opinionated collection of packages, utilities and a set of rules for your Next.js 13+ project.
+Lightning is an opinionated collection of packages, utilities and a set of rules for your Next.js 13.2 project.
 
 ## Requirements
 
@@ -30,7 +30,7 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 
 ## Features
 
-- ⚡ [Next.js](https://nextjs.org) 13+
+- ⚡ [Next.js](https://nextjs.org) 13.2
 - 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
 - 💎 Integrate with [Tailwind CSS](https://tailwindcss.com)
 - ✅ Strict Mode for TypeScript and React 18
@@ -71,7 +71,6 @@ Open http://localhost:3000 with your favorite browser to see your project.
 ├── src                             
 │   ├── app                         # App base
 │   │   ├── components              # Default components
-│   ├── pages                           # Next JS Pages
 │   │   ├── api                         # Next JS api 
 ├── public                          # Public assets folder
 │   ├── images                      # Image/Icon/Favicon folder
@@ -92,17 +91,11 @@ All tests are colocated with the source code inside the same directory. So, it m
 Deploy Lightning on Vercel in one click:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Frikvermeulen%2Flightning)
-### Docker
-
-Build lightning with Docker
 
 ## Roadmap
 
 - [x] Add PWA
 - [x] Add test
-- [ ] Add [optional] custom server
-- [ ] Add logger module
-- [ ] Add redirect module
 
 ### VSCode information (optional)
 
