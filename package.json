@@ -4,7 +4,7 @@
   "private": true,
   "description": "Project:",
   "scripts": {
-    "dev": "next dev --turbo && NODE_ENV=development",
+    "dev": "next dev && NODE_ENV=development",
     "build": "next build && NODE_ENV=production",
     "start": "next start",
     "lint": "next lint",
