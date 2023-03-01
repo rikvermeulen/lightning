@@ -55,13 +55,13 @@ const openGraph = {
   siteName: 'Lightning',
   images: [
     {
-      url: 'favicons/favicon-32x32.png',
+      url: 'https://nextjs.org/og.png',
       width: 800,
       height: 600,
       alt: 'Lightning',
     },
     {
-      url: 'favicons/favicon-32x32.png',
+      url: 'https://nextjs.org/og.png',
       width: 1800,
       height: 1600,
       alt: 'Lightning',
@@ -87,13 +87,18 @@ const robots = {
 
 // Template metadata for all icons
 const icons = {
-  icon: 'favicons/favicon-32x32.png',
-  shortcut: 'favicons/safari-pinned-tab.svg',
-  apple: 'favicons/apple-512x512.png',
-  other: {
-    rel: 'apple-touch-icon-precomposed',
-    url: 'favicons/apple-512x512.png',
-  },
+  icon: [{ url: 'favicons/icon-32x32.png' }],
+  shortcut: ['favicons/icon-32x32.png'],
+  apple: [
+    { url: 'favicons/icon-60x60.png' },
+    { url: 'favicons/icon-180x180.png', sizes: '180x180', type: 'image/png' },
+  ],
+  other: [
+    {
+      rel: 'apple-touch-icon-precomposed',
+      url: 'favicons/icon-512x512.png',
+    },
+  ],
 };
 
 // Template metadata for Twitter
@@ -102,7 +107,7 @@ const twitter = {
   title: 'Lightning',
   description: 'Lightning boilerplate for nextjs',
   siteId: '1467726470533754880',
-  creator: '@nextjs',
+  creator: '@rikvermeulen',
   creatorId: '1467726470533754880',
   images: ['https://nextjs.org/og.png'],
 };

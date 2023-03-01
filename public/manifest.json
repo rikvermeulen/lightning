@@ -1,16 +1,16 @@
 {
   "short_name": "lightning",
   "name": "lightning",
-  "description": "description",
+  "description": "Boilerplate and building blocks for your Next project",
   "icons": [
     {
-      "src": "/favicons/icons-192x192.png",
+      "src": "/favicons/icon-192x192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
     },
     {
-      "src": "/favicons/icons-512x512.png",
+      "src": "/favicons/icon-512x512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
@@ -21,5 +21,8 @@
   "scope": "/",
   "theme_color": "#000000",
   "start_url": "/",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "dir": "auto",
+  "lang": "en",
+  "categories": ["education", "personalization", "utilities"]
 }
