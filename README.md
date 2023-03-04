@@ -96,6 +96,7 @@ Deploy Lightning on Vercel in one click:
 
 - [x] Add PWA
 - [x] Add test
+- [] NPM integration with 'npm create lightning-app' 
 
 ### VSCode information (optional)
 
