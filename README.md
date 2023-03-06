@@ -45,8 +45,8 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 
 ## Getting started
 
-
-[Recommended] To create an app using `lighting`, run any of the following three commands and answer the command prompt questions:
+**Recommended installation**<br> 
+To create an app using `lighting`, run any of the following three commands and answer the command prompt questions:
 
 ### npm
 
@@ -65,7 +65,9 @@ yarn create lighting-app
 ```bash
 pnpm create lighting-app@latest
 ```
-
+\
+**Default installation**
+<br/>
 Or run the following command on your local environment:
 
 ```shell
