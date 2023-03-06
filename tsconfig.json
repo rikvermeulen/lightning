@@ -16,7 +16,7 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "#/*": ["./*"]
+      "~/*": ["./src/*"]
     },
     "plugins": [
       {
@@ -24,6 +24,14 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    ".eslintrc.cjs",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.cjs",
+    "**/*.mjs",
+    ".prettierrc.cjs"
+  ],
   "exclude": ["node_modules", "out", ".next"]
 }
