@@ -45,7 +45,27 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 
 ## Getting started
 
-Run the following command on your local environment:
+To create an app using `lighting`, run any of the following three commands and answer the command prompt questions:
+
+### npm
+
+```bash
+npm create lighting-app@latest
+```
+
+### yarn
+
+```bash
+yarn create lighting-app
+```
+
+### pnpm
+
+```bash
+pnpm create lighting-app@latest
+```
+
+Or run the following command on your local environment:
 
 ```shell
 git clone --depth=1 https://github.com/rikvermeulen/lightning.git project-name
@@ -64,21 +84,22 @@ Open http://localhost:3000 with your favorite browser to see your project.
 ```shell
 .
 ├── __tests__                       # Mocks for testing
-├── .github                         # GitHub folder
-│   ├── workflow                    # GitHub actions folder
 ├── .husky                          # Husky configuration
 ├── .vscode                         # VSCode configuration
 ├── src                             
 │   ├── app                         # App base
 │   │   ├── components              # Default components
 │   │   ├── api                         # Next JS api 
+│   │   ├── styles                      # Styles folder
 ├── public                          # Public assets folder
-│   ├── images                      # Image/Icon/Favicon folder
-│   ├── styles                      # Styles folder
+│   ├── favicons                    # Favicons folder
 ├── tailwind.config.js              # Tailwind CSS configuration
 ├── next.config.js                  # Next configuration
+├── vitest.config.ts                # Vitest configuration
 ├── README.md                       # README file
+├── .eslintrc.json                  # Eslint config
 └── tsconfig.json                   # TypeScript configuration
+
 ```
 ## Testing
 
