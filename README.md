@@ -3,6 +3,9 @@
 <p align="center">
   Boilerplate and building blocks for your Next project
 </p>
+<p align="center">
+  Get started with lightning by running <code>npm create lightning-app@latest</code>
+</p>
 
 <p align="center">
   <a href="https://twitter.com/rikvermeulen_">
