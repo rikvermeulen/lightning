@@ -10,7 +10,6 @@ const config = {
   tailwindConfig: './tailwind.config.js',
   plugins: [require.resolve('prettier-plugin-tailwindcss')],
   pluginSearchDirs: false,
-  exludeFiles: ['node_modules/**', 'dist/**', '.next/**'],
 };
 
 module.exports = config;

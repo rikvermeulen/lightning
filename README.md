@@ -107,9 +107,6 @@ Open http://localhost:3000 with your favorite browser to see your project.
 └── tsconfig.json                   # TypeScript configuration
 
 ```
-## Testing
-
-All tests are colocated with the source code inside the same directory. So, it makes it easier to find them. Unfortunately, it is not possible with the `pages` folder which is used by Next.js for routing. So, what is why we have a `pages.test` folder to write tests from files located in `pages` folder.
 
 ## Deploy
 
