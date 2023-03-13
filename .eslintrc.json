@@ -50,8 +50,8 @@
         "import/no-extraneous-dependencies": [
           "error",
           {
-            "devDependencies": "off",
-            "bundledDependencies": "off"
+            "devDependencies": ["off"],
+            "bundledDependencies": ["off"]
           }
         ]
       }
