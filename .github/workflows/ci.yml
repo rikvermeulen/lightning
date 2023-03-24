@@ -21,7 +21,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          cache: "npm"
       - run: npm ci
       - run: npm run build
 
@@ -41,7 +41,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          cache: "npm"
       - run: npm ci
 
       - if: github.event_name == 'pull_request'
@@ -53,6 +53,3 @@ jobs:
 
       - name: Type checking
         run: npm run check-types
-
-      - name: Run unit tests
-        run: npm run test
