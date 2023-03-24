@@ -93,9 +93,10 @@ Open http://localhost:3000 with your favorite browser to see your project.
 ├── .vscode                         # VSCode configuration
 ├── src                             
 │   ├── app                         # App base
-│   │   ├── components              # Default components
-│   │   ├── api                         # Next JS api 
-│   │   ├── styles                      # Styles folder
+│   │   ├── api                     # Api router
+│   ├── components                  # Default components
+│   ├── config                      # Config folder
+│   ├── styles                      # Styles folder
 ├── public                          # Public assets folder
 │   ├── favicons                    # Favicons folder
 ├── tailwind.config.js              # Tailwind CSS configuration
