@@ -7,16 +7,13 @@
   Get started with lightning by running <code>npm create lightning-app@latest</code>
 </p>
 
+![header](./.github/header.png)
+
 <p align="center">
-  <a href="https://twitter.com/rikvermeulen_">
-    <img src="https://img.shields.io/twitter/follow/rikvermeulen_?style=flat&label=rikvermeulen_&logo=twitter&color=0bf&logoColor=fff" alt="Rik Vermeulen Twitter follower count" />
-  </a>
   <a href="https://github.com/rikvermeulen/lightning">
     <img src="https://img.shields.io/github/stars/rikvermeulen/lightning?label=rikvermeulen%2Flightning" alt="Lightning repo star count" />
   </a>
 </p>
-
-![header](./.github/header.png)
 
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
