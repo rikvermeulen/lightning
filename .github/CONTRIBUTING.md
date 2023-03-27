@@ -1,6 +1,6 @@
 # Contributing to Lightning
 
-First off, thank you for considering contributing to Lightning! It's people like you that make [Project Name] a great project.
+First off, thank you for considering contributing to Lightning! It's people like you that make Lightning a great project.
 
 ## Code of Conduct
 
