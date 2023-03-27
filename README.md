@@ -43,7 +43,7 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 - Unit Testing with Vitest and React Testing Library
 - Run tests on pull request with GitHub Actions
 - Absolute Imports using `@` prefix
-- VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript, Jest
+- VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
 
 ## 👨🏻‍💻 Getting started
 

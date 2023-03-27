@@ -1,7 +1,7 @@
 /** @type {import("prettier").Config} */
 const config = {
   arrowParens: 'always',
-  singleQuote: false,
+  singleQuote: true,
   jsxSingleQuote: false,
   semi: true,
   trailingComma: 'all',

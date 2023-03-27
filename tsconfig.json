@@ -14,9 +14,10 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
-      "#/*": ["./*"]
+      "@/components/*": ["./components/*"],
+      "@/styles/*": ["./styles/*"]
     },
     "plugins": [
       {

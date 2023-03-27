@@ -1,9 +1,10 @@
-import '../styles/global.css';
+import '@/styles/global.css';
 
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
-import Header from '../components/Header';
+import Header from '@/components/Header';
+
 import { meta } from './meta';
 
 /*
