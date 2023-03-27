@@ -44,10 +44,10 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
 
 Before submitting your changes, make sure all tests are passing. You can run the tests with the following command:
 
-```
+```bash
 npm test
 
-```bash
+```
 
 or
 
