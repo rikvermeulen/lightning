@@ -1,7 +1,8 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+/** @type {import("prettier").Config} */
+const config = {
+  plugins: [require.resolve("prettier-plugin-tailwindcss")],
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
@@ -12,3 +13,5 @@ module.exports = {
   },
   plugins: [],
 };
+
+module.exports = config;
