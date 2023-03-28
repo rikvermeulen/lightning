@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 
-const path = require('path');
-const dotenv = require('dotenv-safe');
+import { resolve } from 'path';
+import { config as dotenvConfig } from 'dotenv-safe';
 
-const { parsed: localEnv } = dotenv.config({
+const { parsed: localEnv } = dotenvConfig({
   allowEmptyValues: true,
-  path: path.resolve(__dirname, `src/config/.env.${process.env.NODE_ENV}`),
+  path: resolve(process.cwd(), `src/config/.env.${process.env.NODE_ENV}`),
 });
 
 module.exports = {
