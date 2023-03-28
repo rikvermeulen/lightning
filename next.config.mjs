@@ -9,6 +9,7 @@ const { parsed: localEnv } = dotenvConfig({
 });
 
 const config = {
+  reactStrictMode: true,
   env: localEnv,
   experimental: {
     appDir: true,
