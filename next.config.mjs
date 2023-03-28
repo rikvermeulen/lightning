@@ -8,9 +8,11 @@ const { parsed: localEnv } = dotenvConfig({
   path: resolve(process.cwd(), `src/config/.env.${process.env.NODE_ENV}`),
 });
 
-module.exports = {
+const config = {
   env: localEnv,
   experimental: {
     appDir: true,
   },
 };
+
+export default config;
