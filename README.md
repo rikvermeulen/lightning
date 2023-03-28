@@ -54,19 +54,19 @@ To create an app using `lighting`, run any of the following three commands and a
 ### npm
 
 ```bash
-npm create lighting-app@latest
+npm create lightning-app@latest
 ```
 
 ### yarn
 
 ```bash
-yarn create lighting-app
+yarn create lightning-app
 ```
 
 ### pnpm
 
 ```bash
-pnpm create lighting-app@latest
+pnpm create lightning-app@latest
 ```
 \
 **Default installation**
