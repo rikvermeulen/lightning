@@ -44,6 +44,7 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 - Run tests on pull request with GitHub Actions
 - Absolute Imports using `@` prefix
 - VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
+- Expansion Pack — Easily install common libraries, additional components, and configs
 
 ## 👨🏻‍💻 Getting started
 

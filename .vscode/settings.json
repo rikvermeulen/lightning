@@ -18,6 +18,5 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.ignorePath": ".gitignore",
-  "docwriter.style": "Auto-detect" // Don't run prettier for files listed in .gitignore
+  "prettier.ignorePath": ".gitignore"
 }
