@@ -7,7 +7,7 @@ const config = {
   trailingComma: 'all',
   tabWidth: 2,
   printWidth: 100,
-  tailwindConfig: './tailwind.config.js',
+  tailwindConfig: './tailwind.config.cjs',
   plugins: [require.resolve('prettier-plugin-tailwindcss')],
   pluginSearchDirs: false,
 };
