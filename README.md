@@ -48,7 +48,7 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 
 ## 👨🏻‍💻 Getting started
 
-**Recommended installation**<br> 
+**Recommended installation**<br>
 To create an app using `lightning`, run any of the following three commands and answer the command prompt questions:
 
 ### npm
@@ -68,6 +68,7 @@ yarn create lightning-app
 ```bash
 pnpm create lightning-app@latest
 ```
+
 \
 **Default installation**
 <br/>
@@ -89,22 +90,23 @@ Open http://localhost:3000 with your favorite browser to see your project.
 
 ```shell
 .
-├── __tests__                       # Mocks for testing
 ├── .husky                          # Husky configuration
 ├── .vscode                         # VSCode configuration
-├── src                             
+├── src
 │   ├── app                         # App base
 │   │   ├── api                     # Api router
 │   ├── components                  # Default components
-│   ├── config                      # Config folder
+│   ├── config                      # Env folder
 │   ├── styles                      # Styles folder
+│   ├── middleware.ts               # Middleware file
 ├── public                          # Public assets folder
 │   ├── favicons                    # Favicons folder
-├── tailwind.config.js              # Tailwind CSS configuration
-├── next.config.js                  # Next configuration
-├── vitest.config.ts                # Vitest configuration
+├── tailwind.config.cjs             # Tailwind CSS configuration
+├── next.config.mjs                 # Next configuration
+├── tailwind.config.cjs             # Tailwind CSS configuration
+├── prettierrc.cjs                  # Prettier configuration
 ├── README.md                       # README file
-├── .eslintrc.json                  # Eslint config
+├── .eslintrc.cjs                   # Eslint config
 └── tsconfig.json                   # TypeScript configuration
 
 ```
@@ -119,7 +121,7 @@ Deploy Lightning on Vercel in one click:
 
 - [x] Add PWA
 - [x] Add test
-- [ ] NPM integration with 'npm create lightning-app' 
+- [ ] NPM integration with 'npm create lightning-app'
 
 ## 🗂 VSCode information (optional)
 
@@ -142,4 +144,4 @@ See [LICENSE](LICENSE) for more information.
 
 ## 👤 Author
 
-- Rik Vermeulen ([@rikvermeulen_](https://twitter.com/rikvermeulen_))
+- Rik Vermeulen ([@rikvermeulen\_](https://twitter.com/rikvermeulen_))
