@@ -92,7 +92,7 @@ Open http://localhost:3000 with your favorite browser to see your project.
 .
 ├── .husky                          # Husky configuration
 ├── .vscode                         # VSCode configuration
-├── src
+├── src                             # Project folder
 │   ├── app                         # App base
 │   │   ├── api                     # Api router
 │   ├── components                  # Default components
@@ -138,7 +138,7 @@ With the plugins installed on your VSCode, ESLint and Prettier can automatically
 
 ## 📋 License
 
-Licensed under the MIT License, Copyright © 2022
+Licensed under the MIT License, Copyright © 2023
 
 See [LICENSE](LICENSE) for more information.
 
