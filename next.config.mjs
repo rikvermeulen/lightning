@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
-import { resolve } from 'path';
 import { config as dotenvConfig } from 'dotenv-safe';
+import { resolve } from 'path';
 
 const { parsed: localEnv } = dotenvConfig({
   allowEmptyValues: true,
