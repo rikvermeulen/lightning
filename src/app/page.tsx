@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -74,7 +73,7 @@ export default function Home() {
       </section>
       <section>
         <div className="mx-auto my-10 grid w-full max-w-screen-md animate-[slide-down-fade_0.5s_ease-in-out] grid-cols-1 gap-5 px-5 md:grid-cols-2 xl:px-0 ">
-          <Link
+          <a
             className="relative col-span-1 h-44 overflow-hidden rounded-xl border border-gray-200 bg-white p-4 shadow-md transition-colors duration-300 hover:border-gray-800"
             href="https://beta.nextjs.org/docs"
             target="_blank"
@@ -85,10 +84,10 @@ export default function Home() {
             <p className="leading-normal text-gray-500">
               Find in-depth information about the Next.js features and api
             </p>
-          </Link>
-          <Link
+          </a>
+          <a
             className="relative col-span-1 h-44 overflow-hidden rounded-xl border border-gray-200 bg-white p-4 shadow-md transition-colors duration-300 hover:border-gray-800"
-            href="https://nextjs.org/learn/basics/create-nextjs-app"
+            href="https://www.nextjs.org/learn/basics/create-nextjs-app/"
             target="_blank"
           >
             <h3 className="mb-4 bg-gradient-to-br from-black to-stone-500 bg-clip-text text-xl font-bold text-transparent md:font-normal">
@@ -97,7 +96,7 @@ export default function Home() {
             <p className="leading-normal text-gray-500">
               Learn about Next.js in an interactive course with quizzes!
             </p>
-          </Link>
+          </a>
         </div>
       </section>
     </main>
