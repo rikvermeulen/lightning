@@ -13,6 +13,7 @@ const config = {
   env: localEnv,
   experimental: {
     appDir: true,
+    typedRoutes: true,
   },
 };
 
