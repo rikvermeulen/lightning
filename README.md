@@ -84,7 +84,6 @@ npm run dev
 Open http://localhost:3000 with your favorite browser to see your project.
 
 ```shell
-.
 ├── .husky                          # Husky configuration
 ├── .vscode                         # VSCode configuration
 ├── src                             # Project folder
