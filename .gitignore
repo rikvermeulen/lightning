@@ -35,11 +35,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# next-sitemap
-public/robots.txt
-public/sitemap.xml
-public/sitemap-*.xml
-
 # Auto Generated PWA files
 **/public/sw.js
 **/public/workbox-*.js
