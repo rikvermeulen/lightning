@@ -27,7 +27,7 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 
 ## 🎁 Features
 
-- [Next.js](https://nextjs.org) 13.2
+- [Next.js](https://nextjs.org) 13.3
 - Type checking [TypeScript](https://www.typescriptlang.org)
 - Integrate with [Tailwind CSS](https://tailwindcss.com)
 - Strict Mode for TypeScript and React 18
@@ -35,11 +35,16 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 - Code Formatter with [Prettier](https://prettier.io)
 - Husky for Git Hooks
 - Lint-staged for running linters on Git staged files
-- Unit Testing with Vitest and React Testing Library
 - Run tests on pull request with GitHub Actions
 - Absolute Imports using `@` prefix
 - VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
 - Expansion Pack — Easily install common libraries, additional components, and configs
+
+## 📦 Expansion Pack
+
+- Unit Testing with Vitest and React Testing Library
+- PWA with Workbox and Next-PWA plugin
+- NextAuth for authentication
 
 ## 👨🏻‍💻 Getting started
 
