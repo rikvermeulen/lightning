@@ -1,5 +1,10 @@
 import { MetadataRoute } from 'next';
 
+/**
+ * Template metadata for robots.txt
+ * @see https://beta.nextjs.org/docs/api-reference/metadata#robots-file
+ */
+
 export default function robots(): MetadataRoute.Robots {
   const host = process.env.SITE_URL as string;
 
