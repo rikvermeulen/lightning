@@ -34,11 +34,10 @@ const alternates = {
 // Template metadata for apple web apps
 const appleWebApp = {
   title: 'Lightning',
-  //   statusBarStyle: 'default',
   startupImage: [
-    '/assets/startup/apple-touch-startup-image-768x1004.png',
+    '/',
     {
-      url: '/assets/startup/apple-touch-startup-image-1536x2008.png',
+      url: '/',
       media: '(device-width: 768px) and (device-height: 1024px)',
     },
   ],
@@ -106,9 +105,9 @@ const twitter = {
   card: 'summary_large_image',
   title: 'Lightning',
   description: 'Lightning boilerplate for nextjs',
-  siteId: '1467726470533754880',
-  creator: '@rikvermeulen',
-  creatorId: '1467726470533754880',
+  siteId: '123456789',
+  creator: '@rikvermeulen_',
+  creatorId: '123456789',
   images: ['https://nextjs.org/og.png'],
 };
 
@@ -130,6 +129,9 @@ export const meta: Metadata = {
     email: false,
     address: false,
     telephone: false,
+  },
+  other: {
+    custom: 'meta',
   },
   openGraph,
   robots,
