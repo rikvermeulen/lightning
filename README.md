@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-  <a href="#👋"><strong>Introduction</strong></a> ·
-  <a href="#🚀deploy"><strong>One-click Deploy</strong></a> ·
-  <a href="#Features"><strong>Tech Stack + Features</strong></a> ·
-  <a href="#author"><strong>Author</strong></a>
+  <a href="#-introduction"><strong>Introduction</strong></a> ·
+  <a href="#-features"><strong>Tech Stack + Features</strong></a> ·
+  <a href="#-deploy"><strong>One-click Deploy</strong></a> ·
+  <a href="#-author"><strong>Author</strong></a>
 </p>
 
 ## 👋 Introduction
@@ -40,7 +40,7 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 - VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
   @next/font – Optimize custom fonts and remove external network requests for improved performance
 
-## 📦 Expansion Pack
+### 📦 Expansion Pack
 
 Easily install common libraries, additional components, and configs with `create lightning-app@latest` command.
 
