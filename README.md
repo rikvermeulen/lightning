@@ -19,7 +19,7 @@
 
 ## 👋 Introduction
 
-Lightning is an opinionated collection of packages, utilities and a set of rules for your Next.js 13.2 project.
+Lightning is an opinionated collection of packages, utilities and a set of rules for your Next.js 13.3 project.
 
 ### Requirements
 
@@ -38,14 +38,17 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 - Run tests on pull request with GitHub Actions
 - Absolute Imports using `@` prefix
 - VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
+  @next/font – Optimize custom fonts and remove external network requests for improved performance
 
 ## 📦 Expansion Pack
 
 Easily install common libraries, additional components, and configs with `create lightning-app@latest` command.
 
-- Unit Testing with Vitest and React Testing Library
+- Unit Testing with [Vitest]() and React Testing Library
 - PWA with Workbox and Next-PWA plugin
-- NextAuth for authentication
+- Handle user authentication with [Auth.js]() with providers like Google, Twitter, GitHub.
+  – [Framer Motion]() library for React to animate components with ease
+- [Vercel Analytics]() Track unique visitors, pageviews, and more in a privacy-friendly way
 
 ## 👨🏻‍💻 Getting started
 
@@ -121,7 +124,7 @@ Deploy Lightning on Vercel in one click:
 
 - [x] Add PWA
 - [x] Add test
-- [ ] NPM integration with 'npm create lightning-app'
+- [x] NPM integration with 'create lightning-app'
 
 ## 🗂 VSCode information (optional)
 
