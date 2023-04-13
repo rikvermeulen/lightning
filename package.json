@@ -1,27 +1,27 @@
 {
   "name": "lightning",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.1.0",
   "description": "Project:",
-  "scripts": {
-    "dev": "next dev && NODE_ENV=development",
-    "build": "next build && NODE_ENV=production",
-    "start": "next start",
-    "lint": "next lint",
-    "prepare": "husky install",
-    "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
-    "check-types": "tsc",
-    "check-updates": "ncu -u && npm i"
-  },
   "author": "Rik Vermeulen",
   "contributors": [],
-  "license": "ISC",
+  "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rikvermeulen/lightnings"
+    "url": "https://github.com/rikvermeulen/lightning"
+  },
+  "scripts": {
+    "dev": "next dev && NODE_ENV=development",
+    "build": "next build && NODE_ENV=production",
+    "start": "next start",
+    "preview": "next build && next start && NODE_ENV=test",
+    "lint": "next lint",
+    "prepare": "husky install",
+    "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
+    "check-types": "tsc",
+    "check-updates": "ncu -u && npm i"
   },
   "dependencies": {
     "dotenv-safe": "^8.2.0",
