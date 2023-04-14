@@ -120,12 +120,6 @@ Deploy Lightning on Vercel in one click:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Frikvermeulen%2Flightning)
 
-## 📅 Roadmap
-
-- [x] Add PWA
-- [x] Add test
-- [x] NPM integration with 'create lightning-app'
-
 ## 🗂 VSCode information (optional)
 
 For VSCode users, you can have a better integration with VSCode by installing the suggested extension in `.vscode/extension.json`. The starter code comes up with Settings for a seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
