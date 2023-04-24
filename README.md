@@ -99,6 +99,7 @@ Open http://localhost:3000 with your favorite browser to see your project.
 │   ├── components                  # Default components
 │   ├── config                      # Env folder
 │   ├── styles                      # Styles folder
+│   ├── types                       # Types folder
 │   ├── middleware.ts               # Middleware file
 ├── public                          # Public assets folder
 │   ├── favicons                    # Favicons folder
