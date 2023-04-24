@@ -1,10 +1,10 @@
+![header](./.github/header.png)
+
 <h1 align="center">Lightning</h1>
 
 <p align="center">
   Boilerplate and building blocks for your Next project
 </p>
-
-![header](./.github/header.png)
 
 <p align="center">
   Get started with lightning by running <code>npm create lightning-app@latest</code>
