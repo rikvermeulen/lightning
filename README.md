@@ -47,8 +47,6 @@ Easily install common libraries, additional components, and configs with `create
 - Unit Testing with [Vitest]() and React Testing Library
 - PWA with Workbox and Next-PWA plugin
 - Handle user authentication with [Auth.js]() with providers like Google, Twitter, GitHub.
-  – [Framer Motion]() library for React to animate components with ease
-- [Vercel Analytics]() Track unique visitors, pageviews, and more in a privacy-friendly way
 
 ## 👨🏻‍💻 Getting started
 
