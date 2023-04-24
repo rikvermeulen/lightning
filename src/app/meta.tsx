@@ -124,7 +124,6 @@ export default function meta(): Metadata {
     applicationName: 'Lightning',
     title: 'Lightning',
     description: 'Lightning boilerplate for nextjs',
-    manifest: 'manifest.json',
     referrer: 'origin-when-cross-origin',
     keywords: ['Lightning', 'Next.js', 'React', 'JavaScript'],
     authors: [{ name: 'Rik', url: 'https://rikvermeulen.com' }],

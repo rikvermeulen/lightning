@@ -20,9 +20,16 @@ export default function robots(): MetadataRoute.Manifest {
     categories: ['education', 'personalization', 'productivity', 'utilities'],
     icons: [
       {
-        src: `${host}/favicon.ico`,
-        sizes: '64x64 32x32 24x24 16x16',
+        src: `${host}/favicons/favicon.ico`,
+        sizes: '32x32',
         type: 'image/x-icon',
+        purpose: 'maskable',
+      },
+      {
+        src: `${host}/favicons/icon-192x192.png`,
+        sizes: '192x192',
+        type: 'image/png',
+        purpose: 'any',
       },
     ],
   };
