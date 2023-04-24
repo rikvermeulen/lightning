@@ -1,25 +1,25 @@
+![header](./.github/header.png)
+
 <h1 align="center">Lightning</h1>
 
 <p align="center">
   Boilerplate and building blocks for your Next project
 </p>
 
-![header](./.github/header.png)
-
 <p align="center">
   Get started with lightning by running <code>npm create lightning-app@latest</code>
 </p>
 
 <p align="center">
-  <a href="#introduction"><strong>Introduction</strong></a> ·
-  <a href="#deploy"><strong>One-click Deploy</strong></a> ·
-  <a href="#features"><strong>Tech Stack + Features</strong></a> ·
-  <a href="#author"><strong>Author</strong></a>
+  <a href="#-introduction"><strong>Introduction</strong></a> ·
+  <a href="#-features"><strong>Tech Stack + Features</strong></a> ·
+  <a href="#-deploy"><strong>One-click Deploy</strong></a> ·
+  <a href="#-author"><strong>Author</strong></a>
 </p>
 
 ## 👋 Introduction
 
-Lightning is an opinionated collection of packages, utilities and a set of rules for your Next.js 13.2 project.
+Lightning is an opinionated collection of packages, utilities and a set of rules for your Next.js 13.3 project.
 
 ### Requirements
 
@@ -27,7 +27,7 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 
 ## 🎁 Features
 
-- [Next.js](https://nextjs.org) 13.2
+- [Next.js](https://nextjs.org) 13.3
 - Type checking [TypeScript](https://www.typescriptlang.org)
 - Integrate with [Tailwind CSS](https://tailwindcss.com)
 - Strict Mode for TypeScript and React 18
@@ -35,11 +35,18 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 - Code Formatter with [Prettier](https://prettier.io)
 - Husky for Git Hooks
 - Lint-staged for running linters on Git staged files
-- Unit Testing with Vitest and React Testing Library
 - Run tests on pull request with GitHub Actions
 - Absolute Imports using `@` prefix
 - VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
-- Expansion Pack — Easily install common libraries, additional components, and configs
+  @next/font – Optimize custom fonts and remove external network requests for improved performance
+
+### 📦 Expansion Pack
+
+Easily install common libraries, additional components, and configs with `create lightning-app@latest` command.
+
+- Unit Testing with [Vitest]() and React Testing Library
+- PWA with Workbox and Next-PWA plugin
+- Handle user authentication with [Auth.js]() with providers like Google, Twitter, GitHub.
 
 ## 👨🏻‍💻 Getting started
 
@@ -110,12 +117,6 @@ Open http://localhost:3000 with your favorite browser to see your project.
 Deploy Lightning on Vercel in one click:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Frikvermeulen%2Flightning)
-
-## 📅 Roadmap
-
-- [x] Add PWA
-- [x] Add test
-- [ ] NPM integration with 'npm create lightning-app'
 
 ## 🗂 VSCode information (optional)
 

@@ -1,5 +1,10 @@
 import { MetadataRoute } from 'next';
 
+/**
+ * Template metadata for robots.txt
+ * @see https://beta.nextjs.org/docs/api-reference/metadata#robots-file
+ */
+
 export default function robots(): MetadataRoute.Robots {
   const host = process.env.SITE_URL as string;
 
@@ -8,7 +13,9 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
       disallow: '/private/',
+      crawlDelay: 2,
     },
     sitemap: `${host}/sitemap.xml`,
+    host: host,
   };
 }

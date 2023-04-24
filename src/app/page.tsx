@@ -8,7 +8,6 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <div className="fixed -z-0 h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-cyan-100" />
       <section className="relative py-24">
         <div className="mx-auto max-w-xl flex-col px-5 xl:px-0">
           <h1 className="bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center text-4xl font-bold tracking-[-0.02em] text-transparent drop-shadow-sm md:text-7xl md:leading-[5rem]">
