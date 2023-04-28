@@ -7,7 +7,7 @@ import type { MetadataRoute } from 'next';
  */
 
 export default function robots(): MetadataRoute.Manifest {
-  const host = process.env.SITE_URL as string;
+  const host = process.env.HOST as string;
 
   return {
     name: 'lightning',

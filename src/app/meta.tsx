@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
  */
 
 export default function meta(): Metadata {
-  const host = process.env.SITE_URL as string;
+  const host = process.env.HOST as string;
 
   // Template metadata for app links
   const appLinks = {
