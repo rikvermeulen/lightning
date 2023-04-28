@@ -2,21 +2,15 @@
 
 const config = {
   parser: '@typescript-eslint/parser',
-  plugins: [
-    '@typescript-eslint',
-    'unused-imports',
-    'tailwindcss',
-    'simple-import-sort',
-    'prettier',
-  ],
   extends: [
     'airbnb-typescript',
     'next/core-web-vitals',
+    'prettier',
     'plugin:prettier/recommended',
-    'plugin:import/errors',
-    'plugin:import/warnings',
+    'plugin:tailwindcss/recommended',
   ],
-  ignorePatterns: ['out/*', 'node_modules/*', '.eslintrc.js'],
+  plugins: ['@typescript-eslint', 'tailwindcss'],
+  ignorePatterns: ['out/*', 'node_modules/*', 'tailwind.config.ts'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
@@ -25,28 +19,9 @@ const config = {
         tsconfigRootDir: __dirname,
       },
       rules: {
-        'prettier/prettier': [
-          'error',
-          {
-            singleQuote: true,
-            endOfLine: 'auto',
-          },
-        ],
         '@next/next/no-html-link-for-pages': ['off'],
       },
-      settings: {
-        'import/resolver': {
-          typescript: {
-            project: './tsconfig.json',
-            alwaysTryTypes: true,
-          },
-        },
-      },
-      env: {
-        browser: true,
-        node: true,
-        es2021: true,
-      },
+      settings: {},
     },
   ],
 };

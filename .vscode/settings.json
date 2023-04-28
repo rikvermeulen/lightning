@@ -1,9 +1,4 @@
 {
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#2A275B",
-    "titleBar.activeBackground": "#3B367F",
-    "titleBar.activeForeground": "#FAFAFD"
-  },
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "search.exclude": {
@@ -15,8 +10,6 @@
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.rulers": [100],
-  "editor.tabSize": 2,
   "prettier.ignorePath": ".gitignore",
   "prettier.documentSelectors": ["**/*.{cjs,mjs,ts,tsx,md,mdx,json,yaml,yml}"]
 }

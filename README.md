@@ -38,7 +38,7 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 - Run tests on pull request with GitHub Actions
 - Absolute Imports using `@` prefix
 - VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
-  @next/font – Optimize custom fonts and remove external network requests for improved performance
+- Fonts with Next/font for optimizing custom fonts and remove external network requests
 
 ### 📦 Expansion Pack
 
@@ -98,7 +98,9 @@ Open http://localhost:3000 with your favorite browser to see your project.
 │   │   ├── api                     # Api router
 │   ├── components                  # Default components
 │   ├── config                      # Env folder
+│   ├── lib                         # Lib folder
 │   ├── styles                      # Styles folder
+│   ├── types                       # Types folder
 │   ├── middleware.ts               # Middleware file
 ├── public                          # Public assets folder
 │   ├── favicons                    # Favicons folder

@@ -1,8 +1,7 @@
 {
   "name": "lightning",
   "version": "0.1.0",
-  "description": "Project:",
-  "author": "Rik Vermeulen",
+  "description": "Project: Lightning",
   "contributors": [],
   "license": "MIT",
   "engines": {
@@ -19,8 +18,8 @@
     "preview": "next build && next start && NODE_ENV=test",
     "lint": "next lint",
     "prepare": "husky install",
-    "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
-    "check-types": "tsc",
+    "format": "next lint --fix && prettier --write \"**/*.{ts,tsx,mdx}\" --ignore-path .gitignore",
+    "check-types": "tsc --noEmit",
     "check-updates": "ncu -u && npm i"
   },
   "dependencies": {
@@ -30,6 +29,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
     "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^17.6.1",
     "@commitlint/cz-commitlint": "^17.5.0",
@@ -47,9 +47,7 @@
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-tailwindcss": "^3.11.0",
-    "eslint-plugin-unused-imports": "^2.0.0",
     "husky": "^8.0.3",
     "postcss": "^8.4.23",
     "prettier": "^2.8.8",
