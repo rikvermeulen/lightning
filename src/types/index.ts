@@ -1,8 +1,5 @@
-/**
- * @file Global Types
- */
+// global types
 
-//Example
 export interface RootLayoutProps {
   children: React.ReactNode;
 }
