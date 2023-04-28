@@ -1,12 +1,13 @@
-import { MetadataRoute } from 'next';
+import type { MetadataRoute } from 'next';
 
 /**
  * Template metadata for robots.txt
  * @see https://beta.nextjs.org/docs/api-reference/metadata
+ * @returns {MetadataRoute.Manifest}
  */
 
 export default function robots(): MetadataRoute.Manifest {
-  const host = process.env.SITE_URL as string;
+  const host = process.env.HOST as string;
 
   return {
     name: 'lightning',
@@ -20,9 +21,16 @@ export default function robots(): MetadataRoute.Manifest {
     categories: ['education', 'personalization', 'productivity', 'utilities'],
     icons: [
       {
-        src: `${host}/favicon.ico`,
-        sizes: '64x64 32x32 24x24 16x16',
+        src: `${host}/favicons/favicon.ico`,
+        sizes: '32x32',
         type: 'image/x-icon',
+        purpose: 'maskable',
+      },
+      {
+        src: `${host}/favicons/icon-192x192.png`,
+        sizes: '192x192',
+        type: 'image/png',
+        purpose: 'any',
       },
     ],
   };

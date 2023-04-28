@@ -4,12 +4,11 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
 import Header from '@/components/Header';
-
-import meta from './meta';
+import meta from '@/app/meta';
+import type { RootLayoutProps } from '@/types/index';
 
 /**
- * @next/font will automatically optimize your fonts (including custom fonts) and remove 
-   external network requests for improved privacy and performance.
+ * @next/font will optimize your fonts and remove external network requests
  * @see https://beta.nextjs.org/docs/optimizing/fonts
  */
 
@@ -18,12 +17,18 @@ const inter = Inter({
   subsets: ['latin'],
 });
 
+/**
+ * generateMetadata is a function that returns a promise of Metadata.
+ * @see https://beta.nextjs.org/docs/guides/seo#dynamic-metadata
+ * @returns {Promise<Metadata>}
+ */
+
 export async function generateMetadata(): Promise<Metadata> {
   const metadata = await meta();
   return metadata;
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className={`${inter.variable}`}>
       <body>

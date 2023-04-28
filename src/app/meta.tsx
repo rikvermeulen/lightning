@@ -3,10 +3,11 @@ import type { Metadata } from 'next';
 /**
  * Template metadata for app links
  * @see https://beta.nextjs.org/docs/api-reference/metadata
+ * @returns {Metadata}
  */
 
 export default function meta(): Metadata {
-  const host = (process.env.SITE_URL as string) || 'localhost:3000';
+  const host = process.env.HOST as string;
 
   // Template metadata for app links
   const appLinks = {
@@ -35,10 +36,7 @@ export default function meta(): Metadata {
       },
     },
     media: {
-      'only screen and (max-width: 600px)': 'https://nextjs.org/mobile',
-    },
-    types: {
-      'application/rss+xml': 'https://nextjs.org/rss',
+      'only screen and (max-width: 600px)': 'https://lightning-n50sn9mpx-rikvermeulen.vercel.app/',
     },
   };
 
@@ -58,19 +56,13 @@ export default function meta(): Metadata {
   const openGraph = {
     title: 'Lightning',
     description: 'Lightning boilerplate for nextjs',
-    url: 'https://nextjs.org',
+    url: 'https://lightning-n50sn9mpx-rikvermeulen.vercel.app/',
     siteName: 'Lightning',
     images: [
       {
-        url: 'https://nextjs.org/og.png',
-        width: 800,
+        url: `${host}/og.png`,
+        width: 1200,
         height: 600,
-        alt: 'Lightning',
-      },
-      {
-        url: 'https://nextjs.org/og.png',
-        width: 1800,
-        height: 1600,
         alt: 'Lightning',
       },
     ],
@@ -116,7 +108,7 @@ export default function meta(): Metadata {
     siteId: '123456789',
     creator: '@rikvermeulen_',
     creatorId: '123456789',
-    images: ['https://nextjs.org/og.png'],
+    images: [`${host}/og.png`],
   };
 
   return {
@@ -124,7 +116,6 @@ export default function meta(): Metadata {
     applicationName: 'Lightning',
     title: 'Lightning',
     description: 'Lightning boilerplate for nextjs',
-    manifest: 'manifest.json',
     referrer: 'origin-when-cross-origin',
     keywords: ['Lightning', 'Next.js', 'React', 'JavaScript'],
     authors: [{ name: 'Rik', url: 'https://rikvermeulen.com' }],
