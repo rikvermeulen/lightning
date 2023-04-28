@@ -4,8 +4,8 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
 import Header from '@/components/Header';
-
-import meta from './meta';
+import meta from '@/app/meta';
+import type { RootLayoutProps } from '@/types/index';
 
 /**
  * @next/font will optimize your fonts and remove external network requests
@@ -28,7 +28,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return metadata;
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className={`${inter.variable}`}>
       <body>
