@@ -98,6 +98,7 @@ Open http://localhost:3000 with your favorite browser to see your project.
 │   │   ├── api                     # Api router
 │   ├── components                  # Default components
 │   ├── config                      # Env folder
+│   ├── lib                         # Lib folder
 │   ├── styles                      # Styles folder
 │   ├── types                       # Types folder
 │   ├── middleware.ts               # Middleware file
