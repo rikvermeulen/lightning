@@ -36,7 +36,7 @@ export default function meta(): Metadata {
       },
     },
     media: {
-      'only screen and (max-width: 600px)': 'https://lightning-n50sn9mpx-rikvermeulen.vercel.app/',
+      'only screen and (max-width: 600px)': 'https://lightning-teal.vercel.app/',
     },
   };
 
@@ -56,7 +56,7 @@ export default function meta(): Metadata {
   const openGraph = {
     title: 'Lightning',
     description: 'Lightning boilerplate for nextjs',
-    url: 'https://lightning-n50sn9mpx-rikvermeulen.vercel.app/',
+    url: 'https://lightning-teal.vercel.app/',
     siteName: 'Lightning',
     images: [
       {
