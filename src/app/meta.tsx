@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 /**
  * Template metadata for app links
  * @see https://beta.nextjs.org/docs/api-reference/metadata
+ * @returns {Metadata}
  */
 
 export default function meta(): Metadata {

@@ -3,6 +3,7 @@ import { MetadataRoute } from 'next';
 /**
  * Template metadata for robots.txt
  * @see https://beta.nextjs.org/docs/api-reference/metadata
+ * @returns {MetadataRoute.Manifest}
  */
 
 export default function robots(): MetadataRoute.Manifest {

@@ -8,8 +8,7 @@ import Header from '@/components/Header';
 import meta from './meta';
 
 /**
- * @next/font will automatically optimize your fonts (including custom fonts) and remove 
-   external network requests for improved privacy and performance.
+ * @next/font will optimize your fonts and remove external network requests
  * @see https://beta.nextjs.org/docs/optimizing/fonts
  */
 
@@ -17,6 +16,12 @@ const inter = Inter({
   variable: '--font-inter',
   subsets: ['latin'],
 });
+
+/**
+ * generateMetadata is a function that returns a promise of Metadata.
+ * @see https://beta.nextjs.org/docs/guides/seo#dynamic-metadata
+ * @returns {Promise<Metadata>}
+ */
 
 export async function generateMetadata(): Promise<Metadata> {
   const metadata = await meta();
