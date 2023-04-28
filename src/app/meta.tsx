@@ -36,10 +36,7 @@ export default function meta(): Metadata {
       },
     },
     media: {
-      'only screen and (max-width: 600px)': 'https://nextjs.org/mobile',
-    },
-    types: {
-      'application/rss+xml': 'https://nextjs.org/rss',
+      'only screen and (max-width: 600px)': 'https://lightning-n50sn9mpx-rikvermeulen.vercel.app/',
     },
   };
 
@@ -59,19 +56,13 @@ export default function meta(): Metadata {
   const openGraph = {
     title: 'Lightning',
     description: 'Lightning boilerplate for nextjs',
-    url: 'https://nextjs.org',
+    url: 'https://lightning-n50sn9mpx-rikvermeulen.vercel.app/',
     siteName: 'Lightning',
     images: [
       {
-        url: 'https://nextjs.org/og.png',
-        width: 800,
+        url: `${host}/og.png`,
+        width: 1200,
         height: 600,
-        alt: 'Lightning',
-      },
-      {
-        url: 'https://nextjs.org/og.png',
-        width: 1800,
-        height: 1600,
         alt: 'Lightning',
       },
     ],
@@ -117,7 +108,7 @@ export default function meta(): Metadata {
     siteId: '123456789',
     creator: '@rikvermeulen_',
     creatorId: '123456789',
-    images: ['https://nextjs.org/og.png'],
+    images: [`${host}/og.png`],
   };
 
   return {

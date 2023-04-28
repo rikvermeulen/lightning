@@ -1,4 +1,4 @@
-![header](./.github/header.png)
+![header](./public/og.png)
 
 <h1 align="center">Lightning</h1>
 
