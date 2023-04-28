@@ -86,11 +86,21 @@ export default function meta(): Metadata {
 
   // Template metadata for all icons
   const icons = {
-    icon: [{ url: 'favicons/icon-32x32.png' }],
+    icon: [
+      {
+        url: 'favicons/icon-32x32.png',
+      },
+    ],
     shortcut: ['favicons/icon-32x32.png'],
     apple: [
-      { url: 'favicons/icon-60x60.png' },
-      { url: 'favicons/icon-180x180.png', sizes: '180x180', type: 'image/png' },
+      {
+        url: 'favicons/icon-60x60.png',
+      },
+      {
+        url: 'favicons/icon-180x180.png',
+        sizes: '180x180',
+        type: 'image/png',
+      },
     ],
     other: [
       {
@@ -118,7 +128,12 @@ export default function meta(): Metadata {
     description: 'Lightning boilerplate for nextjs',
     referrer: 'origin-when-cross-origin',
     keywords: ['Lightning', 'Next.js', 'React', 'JavaScript'],
-    authors: [{ name: 'Rik', url: 'https://rikvermeulen.com' }],
+    authors: [
+      {
+        name: 'Rik',
+        url: 'https://rikvermeulen.com',
+      },
+    ],
     themeColor: 'black',
     colorScheme: 'dark',
     creator: 'Rik Vermeulen',
