@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
  */
 
 export default function meta(): Metadata {
-  const host = (process.env.SITE_URL as string) || 'localhost:3000';
+  const host = process.env.SITE_URL as string;
 
   // Template metadata for app links
   const appLinks = {
