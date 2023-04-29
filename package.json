@@ -23,16 +23,17 @@
     "check-updates": "ncu -u && npm i"
   },
   "dependencies": {
-    "dotenv-safe": "^8.2.0",
+    "@t3-oss/env-nextjs": "^0.2.2",
     "next": "^13.3.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
     "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^17.6.1",
     "@commitlint/cz-commitlint": "^17.5.0",
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
     "@types/node": "18.16.3",
     "@types/prettier": "^2.7.2",
     "@types/react": "18.2.0",

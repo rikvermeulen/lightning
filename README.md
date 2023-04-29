@@ -82,6 +82,12 @@ cd project-name
 npm install
 ```
 
+Copy `.env.example` to `.env.local` and update the variables.
+
+```sh
+cp .env.example .env.local
+```
+
 Then, you can run locally in development mode:
 
 ```shell
@@ -97,10 +103,10 @@ Open http://localhost:3000 with your favorite browser to see your project.
 │   ├── app                         # App base
 │   │   ├── api                     # Api router
 │   ├── components                  # Default components
-│   ├── config                      # Env folder
 │   ├── lib                         # Lib folder
 │   ├── styles                      # Styles folder
 │   ├── types                       # Types folder
+│   ├── env.ts                      # type-safe env
 │   ├── middleware.ts               # Middleware file
 ├── public                          # Public assets folder
 │   ├── favicons                    # Favicons folder
