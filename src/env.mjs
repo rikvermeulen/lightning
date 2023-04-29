@@ -14,4 +14,5 @@ export const env = createEnv({
   runtimeEnv: {
     NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL,
   },
+  skipValidation: process.env.NODE_ENV === 'production',
 });
