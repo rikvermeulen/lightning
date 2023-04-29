@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import { env } from '@/env';
+import { env } from '@/env.mjs';
 
 /**
  * Template metadata for app links
