@@ -8,7 +8,7 @@ import { env } from '@/env.mjs';
  * @returns {MetadataRoute.Sitemap}
  */
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const host = env.NEXT_PUBLIC_APP_URL as string;
 
   return [
