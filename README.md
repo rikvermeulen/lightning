@@ -19,7 +19,7 @@
 
 ## 👋 Introduction
 
-Lightning is an opinionated collection of packages, utilities and a set of rules for your Next.js 13.3 project.
+Lightning is an opinionated collection of packages, utilities and a set of rules for your Next.js 13.4 project.
 
 ### Requirements
 
@@ -27,7 +27,7 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 
 ## 🎁 Features
 
-- [Next.js](https://nextjs.org) 13.3
+- [Next.js](https://nextjs.org) 13.4
 - Type checking [TypeScript](https://www.typescriptlang.org)
 - Integrate with [Tailwind CSS](https://tailwindcss.com)
 - Strict Mode for TypeScript and React 18
