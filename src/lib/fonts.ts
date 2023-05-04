@@ -2,7 +2,7 @@ import { JetBrains_Mono as mono, Inter as sans } from 'next/font/google';
 
 /**
  * @next/font will optimize your fonts and remove external network requests
- * @see https://beta.nextjs.org/docs/optimizing/fonts
+ * @see  https://nextjs.org/docs/app/building-your-application/optimizing/fonts
  */
 
 export const fontMono = mono({

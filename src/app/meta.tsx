@@ -4,7 +4,7 @@ import { env } from '@/env.mjs';
 
 /**
  * Template metadata for app links
- * @see https://beta.nextjs.org/docs/api-reference/metadata
+ * @see https://nextjs.org/docs/app/api-reference/file-conventions/metadata
  * @returns {Metadata}
  */
 

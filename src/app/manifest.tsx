@@ -4,11 +4,11 @@ import { env } from '@/env.mjs';
 
 /**
  * Template metadata for robots.txt
- * @see https://beta.nextjs.org/docs/api-reference/metadata
+ * @see https://nextjs.org/docs/app/api-reference/file-conventions/metadata
  * @returns {MetadataRoute.Manifest}
  */
 
-export default function robots(): MetadataRoute.Manifest {
+export default function manifest(): MetadataRoute.Manifest {
   const host = env.NEXT_PUBLIC_APP_URL as string;
 
   return {
