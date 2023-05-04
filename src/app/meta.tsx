@@ -124,10 +124,11 @@ export default function meta(): Metadata {
   };
 
   return {
-    generator: 'Next.js',
-    applicationName: 'Lightning',
+    metadataBase: new URL(host),
     title: 'Lightning',
     description: 'Lightning boilerplate for nextjs',
+    generator: 'Next.js',
+    applicationName: 'Lightning',
     referrer: 'origin-when-cross-origin',
     keywords: ['Lightning', 'Next.js', 'React', 'JavaScript'],
     authors: [
