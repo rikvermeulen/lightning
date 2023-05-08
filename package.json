@@ -23,7 +23,7 @@
     "check-updates": "ncu -u && npm i"
   },
   "dependencies": {
-    "@t3-oss/env-nextjs": "^0.2.2",
+    "@t3-oss/env-nextjs": "^0.3.1",
     "next": "^13.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
