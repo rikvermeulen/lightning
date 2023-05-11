@@ -2,9 +2,10 @@ import '@/styles/global.css';
 import type { Metadata } from 'next';
 
 import type { RootLayoutProps } from '@/types/index';
+
 import { fontSans } from '@/lib/fonts';
+import meta from '@/lib/meta';
 import Header from '@/components/Header';
-import meta from '@/app/meta';
 
 export async function generateMetadata(): Promise<Metadata> {
   const metadata = await meta();

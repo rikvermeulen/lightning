@@ -8,7 +8,7 @@ import { env } from '@/env.mjs';
  * @returns {Metadata}
  */
 
-export default function meta(): Metadata {
+export default async function meta(): Promise<Metadata> {
   const host = env.NEXT_PUBLIC_APP_URL as string;
 
   // Template metadata for app links
@@ -29,12 +29,11 @@ export default function meta(): Metadata {
 
   // Template metadata for language alternates
   const alternates = {
-    metadataBase: new URL(host),
     alternates: {
       canonical: '/',
       languages: {
         'en-US': '/en-US',
-        'de-DE': '/de-DE',
+        'nl-NL': '/-NL',
       },
     },
     media: {
@@ -111,7 +110,6 @@ export default function meta(): Metadata {
       },
     ],
   };
-
   // Template metadata for Twitter
   const twitter = {
     card: 'summary_large_image',
