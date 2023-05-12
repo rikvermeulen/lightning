@@ -9,7 +9,7 @@ import { env } from '@/env.mjs';
  */
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const host = env.NEXT_PUBLIC_APP_URL as string;
+  const host = env.NEXT_PUBLIC_APP_URL;
 
   return [
     {
