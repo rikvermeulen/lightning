@@ -4,54 +4,12 @@ import { env } from '@/env.mjs';
 
 /**
  * Template metadata for app links
- * @see https://nextjs.org/docs/app/api-reference/file-conventions/metadata
+ * @see https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-fields
  * @returns {Metadata}
  */
 
 export default async function meta(): Promise<Metadata> {
   const host = env.NEXT_PUBLIC_APP_URL;
-
-  // Template metadata for app links
-  const appLinks = {
-    ios: {
-      url: '/link/to/ios/app',
-      app_store_id: 'app_store_id',
-    },
-    android: {
-      package: '/link/to/android/app',
-      app_name: 'app_name_android',
-    },
-    web: {
-      url: '/link/to/web/app',
-      should_fallback: true,
-    },
-  };
-
-  // Template metadata for language alternates
-  const alternates = {
-    alternates: {
-      canonical: '/',
-      languages: {
-        'en-US': '/en-US',
-        'nl-NL': '/-NL',
-      },
-    },
-    media: {
-      'only screen and (max-width: 600px)': 'https://lightning-teal.vercel.app/',
-    },
-  };
-
-  // Template metadata for apple web apps
-  const appleWebApp = {
-    title: 'Lightning',
-    startupImage: [
-      '/',
-      {
-        url: '/',
-        media: '(device-width: 768px) and (device-height: 1024px)',
-      },
-    ],
-  };
 
   // Template metadata for open graph
   const openGraph = {
@@ -116,13 +74,27 @@ export default async function meta(): Promise<Metadata> {
     title: 'Lightning',
     description: 'Lightning boilerplate for nextjs',
     siteId: '123456789',
-    creator: '@rikvermeulen_',
+    creator: '@username',
     creatorId: '123456789',
     images: [`${host}/og.png`],
   };
 
-  return {
+  // Template metadata for language alternates
+  const alternates = {
     metadataBase: new URL(host),
+    alternates: {
+      canonical: '/',
+      languages: {
+        'en-US': '/en-US',
+        'nl-NL': '/-NL',
+      },
+    },
+    media: {
+      'only screen and (max-width: 600px)': 'https://lightning-teal.vercel.app/',
+    },
+  };
+
+  return {
     title: 'Lightning',
     description: 'Lightning boilerplate for nextjs',
     generator: 'Next.js',
@@ -151,8 +123,6 @@ export default async function meta(): Promise<Metadata> {
     robots,
     icons,
     twitter,
-    appleWebApp,
     alternates,
-    appLinks,
   };
 }
