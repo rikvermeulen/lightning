@@ -19,7 +19,7 @@ export default async function meta(): Promise<Metadata> {
     siteName: 'Lightning',
     images: [
       {
-        url: `${host}/og.png`,
+        url: `${host}/images/og.png`,
         width: 1200,
         height: 600,
         alt: 'Lightning',
@@ -43,31 +43,6 @@ export default async function meta(): Promise<Metadata> {
     },
   };
 
-  // Template metadata for all icons
-  const icons = {
-    icon: [
-      {
-        url: 'favicons/icon-32x32.png',
-      },
-    ],
-    shortcut: ['favicons/icon-32x32.png'],
-    apple: [
-      {
-        url: 'favicons/icon-60x60.png',
-      },
-      {
-        url: 'favicons/icon-180x180.png',
-        sizes: '180x180',
-        type: 'image/png',
-      },
-    ],
-    other: [
-      {
-        rel: 'apple-touch-icon-precomposed',
-        url: 'favicons/icon-512x512.png',
-      },
-    ],
-  };
   // Template metadata for Twitter
   const twitter = {
     card: 'summary_large_image',
@@ -76,12 +51,11 @@ export default async function meta(): Promise<Metadata> {
     siteId: '123456789',
     creator: '@username',
     creatorId: '123456789',
-    images: [`${host}/og.png`],
+    images: [`${host}/images/og.png`],
   };
 
   // Template metadata for language alternates
   const alternates = {
-    metadataBase: new URL(host),
     alternates: {
       canonical: '/',
       languages: {
@@ -95,6 +69,7 @@ export default async function meta(): Promise<Metadata> {
   };
 
   return {
+    metadataBase: new URL(host),
     title: 'Lightning',
     description: 'Lightning boilerplate for nextjs',
     generator: 'Next.js',
@@ -121,7 +96,6 @@ export default async function meta(): Promise<Metadata> {
     },
     openGraph,
     robots,
-    icons,
     twitter,
     alternates,
   };

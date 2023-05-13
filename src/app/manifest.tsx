@@ -23,7 +23,7 @@ export default function manifest(): MetadataRoute.Manifest {
     categories: ['education', 'personalization', 'productivity', 'utilities'],
     icons: [
       {
-        src: `${host}/favicons/favicon.ico`,
+        src: `${host}/favicons/icon-32x32.png`,
         sizes: '32x32',
         type: 'image/x-icon',
         purpose: 'maskable',

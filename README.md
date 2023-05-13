@@ -1,4 +1,4 @@
-![header](./public/og.png)
+![header](./public/images/og.png)
 
 <h1 align="center">Lightning</h1>
 
@@ -106,7 +106,7 @@ Open http://localhost:3000 with your favorite browser to see your project.
 │   ├── lib                         # Lib folder
 │   ├── styles                      # Styles folder
 │   ├── types                       # Types folder
-│   ├── env.ts                      # type-safe env
+│   ├── env.mjs                      # type-safe env
 │   ├── middleware.ts               # Middleware file
 ├── public                          # Public assets folder
 │   ├── favicons                    # Favicons folder
