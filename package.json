@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@t3-oss/env-nextjs": "^0.4.0",
-    "next": "^13.4.4",
+    "next": "^13.4.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "zod": "^3.21.4"
@@ -33,16 +33,16 @@
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
     "@commitlint/cz-commitlint": "^17.5.0",
-    "@ianvs/prettier-plugin-sort-imports": "^4.0.1",
-    "@types/node": "20.2.5",
-    "@types/prettier": "^2.7.2",
-    "@types/react": "18.2.7",
-    "@types/react-dom": "18.2.4",
-    "@typescript-eslint/eslint-plugin": "^5.59.8",
-    "@typescript-eslint/parser": "^5.59.8",
+    "@ianvs/prettier-plugin-sort-imports": "^4.0.2",
+    "@types/node": "20.3.1",
+    "@types/prettier": "^2.7.3",
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
     "autoprefixer": "^10.4.14",
-    "eslint": "^8.41.0",
-    "eslint-config-next": "^13.4.4",
+    "eslint": "^8.42.0",
+    "eslint-config-next": "^13.4.5",
     "eslint-config-prettier": "^8.8.0",
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-import": "^2.27.5",
@@ -53,6 +53,6 @@
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0",
     "tailwindcss": "^3.3.2",
-    "typescript": "5.0.4"
+    "typescript": "5.1.3"
   }
 }
