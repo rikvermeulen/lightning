@@ -1,4 +1,5 @@
 import '@/styles/global.css';
+
 import type { Metadata } from 'next';
 
 import type { RootLayoutProps } from '@/types/index';
