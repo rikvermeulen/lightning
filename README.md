@@ -19,7 +19,7 @@
 
 ## 👋 Introduction
 
-Lightning is an opinionated collection of packages, utilities and a set of rules for your Next.js 13.4 project.
+Lightning is an opinionated collection of packages, utilities and a set of rules for your Next.js 13.5 project.
 
 ### Requirements
 
@@ -27,7 +27,7 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 
 ## 🎁 Features
 
-- [Next.js](https://nextjs.org) 13.4
+- [Next.js](https://nextjs.org) 13.5
 - Type checking [TypeScript](https://www.typescriptlang.org)
 - Integrate with [Tailwind CSS](https://tailwindcss.com)
 - Strict Mode for TypeScript and React 18
@@ -39,14 +39,6 @@ Lightning is an opinionated collection of packages, utilities and a set of rules
 - Absolute Imports using `@` prefix
 - VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
 - Fonts with Next/font for optimizing custom fonts and remove external network requests
-
-### 📦 Expansion Pack
-
-Easily install common libraries, additional components, and configs with `create lightning-app@latest` command.
-
-- Unit Testing with [Vitest]() and React Testing Library
-- PWA with Workbox and Next-PWA plugin
-- Handle user authentication with [Auth.js]() with providers like Google, Twitter, GitHub.
 
 ## 👨🏻‍💻 Getting started
 
